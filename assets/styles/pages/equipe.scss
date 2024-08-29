@@ -1,0 +1,53 @@
+@import "../_base/typography";
+@import "../_base/variables";
+@import "bootstrap/scss/_functions";
+@import "bootstrap/scss/_variables";
+@import "bootstrap/scss/mixins/_breakpoints";
+@import "swiper/css/navigation";
+
+
+
+.team-member {
+    z-index: 1;
+
+
+}
+
+.team-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+    >div{
+      margin-top: 120px;
+       background-color: $steel;
+
+       h2{
+        font-size: 80px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        color: $black;
+       }
+    }
+
+
+
+    &__members {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    &__cards{
+        width: 50%;
+    }
+
+   
+
+
+
+
+
+}
